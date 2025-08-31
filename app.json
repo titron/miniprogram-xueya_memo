@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history"
+  ],
+  "window": {
+    "navigationBarTitleText": "个人血压记录",
+    "navigationBarBackgroundColor": "#99cc33"
+  }
+}
