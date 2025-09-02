@@ -1,0 +1,28 @@
+<!-- index.wxml 主页面 -->
+<view class="container">
+  <form bindsubmit="saveRecord">
+    <view class="input-group">
+      <text>收缩压（mmHg）</text>
+      <input name="systolic" type="number" placeholder="请输入" />
+    </view>
+    
+    <view class="input-group">
+      <text>舒张压（mmHg）</text>
+      <input name="diastolic" type="number" placeholder="请输入" />
+    </view>
+
+    <view class="input-group">
+      <text>心率（bpm）</text>
+      <input name="heartRate" type="number" placeholder="可选" />
+    </view>
+
+    <view class="input-group">
+      <text>备注</text>
+      <input name="note" placeholder="可选备注" />
+    </view>
+
+    <button form-type="submit" class="submit-btn">保存记录</button>
+  </form>
+
+  <navigator url="/pages/history/history" class="history-link">查看历史记录</navigator>
+</view>

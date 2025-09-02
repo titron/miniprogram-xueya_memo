@@ -1,0 +1,29 @@
+/* index.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.input-group {
+  margin: 30rpx 0;
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+input {
+  margin-top: 10rpx;
+  height: 80rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.submit-btn {
+  background: #4CAF50;
+  color: white;
+  margin-top: 40rpx;
+}
+
+.history-link {
+  color: #2196F3;
+  text-align: center;
+  margin-top: 30rpx;
+}
